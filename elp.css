@@ -1,0 +1,90 @@
+body {
+	background-color: #ededed;
+	font-family: inter;
+     }
+
+nav {
+	background-color: #DE1D22;
+	display: flex ;
+	flex-direction: row;
+	justify-content: space-between;
+    }
+
+.logo {
+	margin:10px ;
+       }
+
+.logo > img {
+	width:40px;
+	height:60px;
+    }
+
+.sectores {
+         display: flex ;
+	     flex-direction: row;
+         align-items: center;
+         margin-right: 10px;
+
+         }
+.sectores > li>a {
+	color: #ededed;
+	text-decoration: none;
+     }
+
+.sectores > li {
+	display: inline;
+	margin: 10px;
+	}
+
+h6 {
+	margin: 10px;
+	text-align: center;
+    }
+
+.columnas {
+	    display: flex;
+	      }
+
+.columna1 {
+	     background-color: #DE1D22;
+	     margin: 10px;
+	     padding: 5px;
+	     width: 500px;
+	     color: #ededed;
+	     text-align: justify;
+          }
+
+.columna1 > h5 {
+	text-align: center;
+	font-weight: bold ;
+                }
+
+.columna1 > i {
+	margin: 10px;
+	margin-left: 140px;
+               }
+
+footer {
+	background-color: #000000;
+	height: 145px;
+	display: flex ;
+	align-items: center;
+	justify-content: space-between;
+	        }
+
+.tienda {
+	margin: 10px;
+        }
+
+.redes > a {
+	color: #ededed;
+          }
+
+
+.redes {
+	display: flex ;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 300px;
+	margin-right: 10px;
+        }
