@@ -1,6 +1,7 @@
 body {
 	background-color: #ededed;
 	font-family: inter;
+	width: 100%;
      }
 
 nav {
@@ -41,11 +42,14 @@ h6 {
 	text-align: center;
     }
 
-.columnas {
+.row {
 	    display: flex;
+	    flex: 100%;
+	    margin:  0px;
+	    padding:  0px;
 	      }
 
-.columna1 {
+.col {
 	     background-color: #DE1D22;
 	     margin: 10px;
 	     padding: 5px;
@@ -54,27 +58,32 @@ h6 {
 	     text-align: justify;
           }
 
-.columna1 > h5 {
+.col > h5 {
 	text-align: center;
 	font-weight: bold ;
                 }
 
-.columna1 > i {
-	margin: 10px;
-	margin-left: 140px;
+.col > i {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
                }
 
 footer {
 	background-color: #000000;
-	height: 145px;
+	height: 40%;
 	display: flex ;
 	align-items: center;
 	justify-content: space-between;
+	margin:  0px;
+	padding:  0px;
 	        }
 
 .tienda {
-	margin: 10px;
-        }
+	margin: 1%;
+	        }
 
 .redes > a {
 	color: #ededed;
@@ -85,6 +94,16 @@ footer {
 	display: flex ;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 300px;
-	margin-right: 10px;
+	width: 20%;
+	margin-right: 3%;
         }
+
+.carousel-item > img {
+                      height: 60%;
+                      width: 60%;
+                       }
+
+.container-fluid {
+	             margin:  0px;
+	             padding:  0px;
+                 }
