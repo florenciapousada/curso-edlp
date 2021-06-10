@@ -37,43 +37,59 @@ nav {
 	margin: 10px;
 	}
 
+.container-fluid {
+	             margin:  0px;
+	             padding:  0px;
+                 }
+
+.carousel-item > img {
+                      height: 60%;
+                      width: 60%;
+                       }
+
 h6 {
 	margin: 10px;
 	text-align: center;
     }
 
+
+.container {
+    margin: 1px;
+    padding:  0px;
+	border: 0px;
+            }
+
 .row {
-	    display: flex;
-	    flex: 100%;
 	    margin:  0px;
 	    padding:  0px;
+	    border: 0px;
+	    flex-wrap: nowrap;
 	      }
 
 .columna1 {
 	     background-color: #DE1D22;
-	     margin: 10px;
-	     padding: 5px;
-	     width: 500px;
+	     margin: 2px;
+	     padding: 10px;
 	     color: #ededed;
 	     text-align: justify;
           }
+
+.columna1 > i {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+               }
 
 .columna1 > h5 {
 	text-align: center;
 	font-weight: bold ;
                 }
 
-.columna1 > i {
-	margin-top: 10%;
-	margin-bottom: 10%;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-               }
-
 footer {
 	background-color: #000000;
-	height: 40%;
+	height: 4rem;
 	display: flex ;
 	align-items: center;
 	justify-content: space-between;
@@ -83,14 +99,12 @@ footer {
 
 .tienda {
 	margin: 1%;
-	width: 1%;
-	height: 2%;
-	        }
+		        }
 
-.redes > a {
-	color: #ededed;
-          }
-
+.tienda > a > img {
+	width: 12rem;
+	height: 3rem;
+               }
 
 .redes {
 	display: flex ;
@@ -100,12 +114,12 @@ footer {
 	margin-right: 3%;
         }
 
-.carousel-item > img {
-                      height: 60%;
-                      width: 60%;
-                       }
+.redes > a {
+	color: #ededed;
+          }
 
-.container-fluid {
-	             margin:  0px;
-	             padding:  0px;
-                 }
+
+
+
+
+
